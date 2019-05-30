@@ -1,0 +1,166 @@
+body {        
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  color:  #B7B7B7;
+  }
+
+#container {
+  background-color: #f3f3f3;
+}
+
+.fixed-header {
+  width: 100%;
+  position: fixed;        
+  background: #fff;
+  padding: 10px 0;
+  top: 0;
+  text-align: center;
+  z-index: 99;
+}
+
+.container1{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  letter-spacing: 4px;
+   /* Center the DIV horizontally */
+}
+
+.container1 nav a {
+  color:  #f1bb99;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+
+.container1 nav a.selected {
+  color: #580c3b;
+}
+
+.container1 nav a.selected:hover {
+  color: #580c3b;
+}
+
+.container1 nav a:hover {
+  color: #580c3b;
+}
+
+
+.container1 p{
+  line-height: 200px; /* Create scrollbar to test positioning */
+}
+
+
+IMG.foot {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: auto
+}
+
+.visitpage {
+  display: grid;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  position: relative;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  font-weight: bolder;
+}
+
+
+
+.mapwrap {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.logo-image{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:auto;
+    margin-top: .18em;
+    margin-bottom: .20em;
+}
+
+.iframe {
+  display: inline-block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #580c3b;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.map {
+  max-width: 100%;
+  display: inline-block;
+  margin: auto;
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 2rem;
+  width: 90%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  vertical-align: center;
+}
+
+.wrapper h3 {
+  color: #580c3b;
+}
+
+.wrapper p {
+  color: #666666;
+}
+
+.table {
+  text-align: center;
+  vertical-align: center;
+  border-spacing: .25rem;
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: .5rem;
+}
+
+.w {
+  width: 90%;
+  margin: auto;
+}
+

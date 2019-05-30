@@ -1,0 +1,207 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta charset="utf-8" />
+	<meta name="author" content="Mahima Shanware">
+	<meta name='keywords' content='Bakery, food, Butterwood'>
+	<meta name='description' content="The Butterwood Bake Consortium Website">
+
+	<title>Bakery Website</title>
+	<style>
+		img {
+	      max-width: 100%;
+	      height: auto;
+	      width: auto\9;
+	      display: block;
+	      opacity: .85;
+			}
+	</style>
+</head>
+
+<body>
+	
+	<div id="container">
+		<div class="fixed-header">
+	        <div class="container1">
+	        	<div class="leftleft">
+	            	<nav>
+	            		<a href="food.html">FOOD</a>
+	            	</nav>
+	        	</div>
+	  	 		<div class="left">
+					<nav>
+	            		<a href="order.html">ORDER</a>
+	            	</nav>
+	  	 		</div>
+	  	 		<a class="navbar-brand" href="index.html">
+     				<div class="logo-image">
+            			<img src="images/b_logo.png" class="img-fluid">
+      				</div>
+				</a>
+	   			
+	   			<div class="right">
+	   				<nav>
+	            		<a href="visit.html">VISIT</a>
+	            	</nav>
+	   			</div>
+	   			<div class="rightright">
+	   				<nav>
+	            		<a href="contact.html">CONTACT</a>
+	            	</nav>
+	   			</div>
+	        </div>
+    	</div>
+
+		<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="images/main1.jpeg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="images/main2.jpeg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="images/main3.jpeg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="centered"><body>THE BUTTERWOOD BAKE CONSORTIUM</body></div>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+
+		<div class = "container2">
+		    <div class="wedding_page">
+		    	<nav>
+		    	<a HREF="food.html#food-weddings"><img src="images/wedding.png" alt="wedding picture" style="width:100%;"></a> 	
+		    	</nav>
+		    	<div class="center"><body>WEDDINGS</body></div>
+		    </div>
+		    <div class="anniversay_page">
+		    	<nav>
+		    	<a href="food.html#food-birthdays"><img src="images/birthday.png" alt="cupcake picture" style="width:100%;"></a>
+		    	</nav>
+		    	<div class="center"><body>BIRTHDAYS</body></div>
+		    </div>
+		    <div class="pie_page">
+		    	<nav>
+		    	<a href="food.html#food-pies"><img src="images/pie.png" alt="cupcake picture" style="width:100%;"></a>
+		    	</nav>
+		    	<div class="center"><body>PIES</body></div>
+		    </div>
+		 </div>
+
+		<div class="cell cell-3">
+			<div class="container3">
+				<div class="cell cell-custom1">
+				<nav>
+					<a href="order.html"><h1>DESIGN YOUR OWN</h1></a>
+				</nav>
+				<p>scelerisque non non quam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bib uet sagittis. In tincidunt orci sit amet elementum vestibulum. sque non non quam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bib uet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio i Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bib </p></div>
+
+				<div class="cell cell-custom2">
+					<img src="images/custom.png" alt="custom picture" style="width:80a%;">
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="social_media">
+			<div class="list">
+				<h1>LATEST PRESS</h1>
+				<nav>
+				<a href="https://lifespacepittsburgh.com/the-butterwood-bake-consortium-lawrenceville/.html" target="_blank"><li>Lifespace Pittsburgh</li></a>
+				<br><br>
+				<a href="https://www.pghcitypaper.com/pittsburgh/at-lawrencevilles-butterwood-bake-consortium-the-focus-is-on-dessert/Content?oid=1879796" target="_blank"><li>PGH City Paper</li></a>
+				<br><br>
+				<a href="https://www.pittsburghmagazine.com/Best-of-the-Burgh-Blogs/Eat-Street/November-2015/Butterwood-Bake-Consortium-Takes-the-Cake/" target="_blank"><li>Pittsburgh Magazine</li></a>
+				<br><br>
+				<a href="https://thepittsburgh100.com/entertainment/food/2018/09/25/pittsburgh-roast-butterwood-bake-consortium " target="_blank"><li>The Pittsburgh 100</li></a>
+				</nav>
+			</div>
+			<div class="review">
+				<p>My two friends and I sat down and waited for desserts. The staff person was friendly and quickly brought out our cakes and drinks. The hot chocolate was a tea cup filled half way with melted chocolate that you poured cream into. It was delicious and rich! Definitely would recommend it to anyone who goes. <br> <br>
+
+				-Yelp Review</p>
+			</div>
+			<div class="review">
+			<p>Relaxing tea and pastry spot, with a good selection of sweet little pastries to try (vegan options as well). The atmosphere is quiet and eclectic. The tea was excellent.<br> <br>
+
+				-Yelp Review</p>
+			</div>
+			<div class="review">
+			</div>
+		</div>
+
+
+		<div class="footer">
+		<strong>Butterwood Bake Consortium</strong><br/>
+		<br>Lawrenceville
+		<br>5222 Butler St<br/>
+		Pittsburgh, PA 15201<br/>
+		Phone number: 412-781-0218<br/><br/>
+
+		All Images From Our Instagram<br><br>
+
+		<a href="mailto:info@thebutterwood.com"><img class="foot" src="images/email.png"></a>
+		<a href="https://www.facebook.com/thebutterwoodbakeconsortium?ref=hl" target="_blank"><img class="foot" src="images/facebook.png" "></a>
+		<a href="https://www.instagram.com/thebutterwoodbakeconsortium/" target="_blank"><img class="foot" src="images/instagram.png"></a>
+		</div>
+
+		
+
+</body>
+</html>
+
+
+
+
+
+

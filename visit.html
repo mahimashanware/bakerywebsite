@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" media="all" type="text/css" href="css/stylesvisit.css">
+	<meta charset="utf-8" />
+	<meta name="author" content="Mahima Shanware">
+	<meta name='keywords' content='Bakery, food, Butterwood'>
+	<meta name='description' content="The Butterwood Bake Consortium Website">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+    <script type="text/javascript" src="js/scripts.js" ></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	<script type="text/javascript">
+
+	$(function () {
+	    $('#container-graph').highcharts({
+							
+	        title: {
+	            text: 'Popular times - Wed–Fri 12PM - 11PM (avg per day)',
+	        },
+	        xAxis: {
+	        	title: {
+	                text: 'Time'
+	            },
+	            categories: ['12pm', '1pm', '2pm', '3pm', '4pm', '5pm',
+	                '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
+	        },
+	        yAxis: {
+	            title: {
+	                text: 'Number of People That Visited'
+	            },
+	        },
+	        tooltip: {
+	            valueSuffix: ' number of people'
+	        },
+	        series: [{
+	            data: [10, 8, 24, 5, 7, 32, 16, 18, 27, 39, 32, 22] }]
+
+	        });
+
+	    $('#container-graph2').highcharts({
+							
+	        title: {
+	            text: 'Popular times - Sat and Sun (avg per day)',
+	        },
+	        xAxis: {
+	        	title: {
+	                text: 'Time'
+	            },
+	            categories: ['12pm', '1pm', '2pm', '3pm', '4pm', '5pm',
+	                '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
+	        },
+	        yAxis: {
+	            title: {
+	                text: 'Number of People That Visited'
+	            },
+	        },
+	        tooltip: {
+	            valueSuffix: ' number of people'
+	        },
+	        series: [{
+	            data: [30, 33, 50, 48, 25, 28, 27, 24, 46, 66, 73, 70] }]
+
+	         });
+	        
+	});
+	</script>
+
+
+	<title>Bakery Website</title>
+	<style>
+		img {
+	      max-width: 100%;
+	      height: auto;
+	      width: auto\9;
+	      display: inline-block;
+	      opacity: .8;
+			}
+	</style>
+
+</head>
+<body>
+	<div id="container">
+		<div class="fixed-header">
+	        <div class="container1">
+	        	<div class="leftleft">
+	            	<nav>
+	            		<a href="food.html">FOOD</a>
+	            	</nav>
+	        	</div>
+	  	 		<div class="left">
+					<nav>
+	            		<a href="order.html">ORDER</a>
+	            	</nav>
+	  	 		</div>
+	  	 		<a class="navbar-brand" href="index.html">
+     				<div class="logo-image">
+            			<img src="images/b_logo.png" class="img-fluid">
+      				</div>
+				</a>
+	   			
+	   			<div class="right">
+	   				<nav>
+	            		<a href="visit.html">VISIT</a>
+	            	</nav>
+	   			</div>
+	   			<div class="rightright">
+	   				<nav>
+	            		<a href="contact.html">CONTACT</a>
+	            	</nav>
+	   			</div>
+	        </div>
+    	</div>
+
+	    <div class="visitpage">
+	    		<h1>VISIT US TODAY!</h1>
+	    </div>
+
+	    <div class="mapwrap">
+    	<div class="map">
+    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.7449133339337!2d-79.95592068467187!3d40.480907979357774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2f80929711b%3A0x169402af50d86e6c!2sThe+Butterwood+Bake+Consortium!5e0!3m2!1sen!2sus!4v1552771925138" width=600 height=400 frameborder="0" style="border:0" allowfullscreen></iframe>	
+    	</div>
+    	</div>
+
+	    <div class="wrapper">
+	    	<div class="table">
+		    	<table class="center" style="100%">
+		    	<tr>
+		    		<th><h3>Address</h3></th>
+		    		<td><p>Lawrenceville<br><br>5222 Butler St<br><br>Pittsburgh, PA 15201</p></td>
+		    	</tr>
+		    	<tr>
+		    		<th><h3>Hours</h3></th>
+		    		<td><p>Wed–Fri 12PM - 11PM<br><br>Sat 10AM - 11PM<br><br>Sun 10AM - 9PM</p></td>
+		    	</tr>
+		    	<tr>
+		    		<th><h3>Phone Number</h3></th>
+		    		<td><p>412-781-0218</p></td>
+		    	</tr>
+		    	<tr>
+		    		<th><h3>Email</h3></th>
+		    		<td><p><a href="mailto:info@thebutterwood.com" target="_blank">info@thebutterwood.com</p></a></td>
+		    	</tr>
+		    	</table>
+	    	</div>
+
+	    	<div class="clicked_img">
+	    		<a href="https://www.google.com/maps/place/The+Butterwood+Bake+Consortium/@40.4809121,-79.9559207,17z/data=!3m1!4b1!4m5!3m4!1s0x8834f2f80929711b:0x169402af50d86e6c!8m2!3d40.480908!4d-79.953732" target="_blank">
+				  <img border="0" align="center"  src="images/clicked_img.png"/>
+				</a>
+	    	</div>
+	    </div>
+
+	    <div class="w">
+	    <div id="container-graph"></div>
+	    <br><br><br>
+	    <div id="container-graph2"></div>
+	    </div>
+
+
+	    <div class="footer">
+				<strong>Butterwood Bake Consortium</strong><br/>
+				<br>5222 Butler St<br/>
+				Pittsburgh, PA 15201<br/>
+				412-781-0218<br/><br/>
+				All Images From Our Instagram<br><br>
+
+				<a href="mailto:info@thebutterwood.com"><img class="foot" src="images/email.png" style="width: 3%"></a>
+				<a href="https://www.facebook.com/thebutterwoodbakeconsortium?ref=hl"><img class="foot" src="images/facebook.png" style="width: 3%"></a>
+				<a href="https://www.instagram.com/thebutterwoodbakeconsortium/"><img class="foot" src="images/instagram.png" style="width: 3%"></a>
+		</div>
+
+
+
+    </div>
+</body>
+</html>
